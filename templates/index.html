@@ -1,0 +1,28 @@
+
+<html>
+<head>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>Book Collection</h1>
+
+<a href="/logout">Logout</a>
+<a href="/add">Add Book</a>
+
+<ul>
+
+{% for book in books %}
+
+<li>
+<b>{{ book["title"] }}</b> — {{ book["author"] }} ({{ book["status"] }})
+</li>
+
+{% end %}
+
+</ul>
+
+<script src="/static/app.js"></script>
+
+</body>
+</html>
