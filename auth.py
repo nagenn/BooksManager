@@ -1,4 +1,4 @@
-#This is required for the Tornado service to handle requests
+#This is required for the Tornado service to handle incoming requests
 import tornado.web
 
 class BaseHandler(tornado.web.RequestHandler):
