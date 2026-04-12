@@ -1,4 +1,4 @@
-
+#Simple test of the app
 import requests
 
 def test_login():
