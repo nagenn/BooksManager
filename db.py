@@ -1,4 +1,5 @@
 #This handles the database aspect of the book manager app
+#sqlite is part of python 
 import sqlite3
 
 DB_NAME = "books.db"
