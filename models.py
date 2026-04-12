@@ -1,4 +1,4 @@
-
+#Get, Add and other useful functions
 from db import get_connection
 
 def authenticate(username, password):
